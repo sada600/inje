@@ -1,0 +1,15 @@
+<welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+
+  <servlet>
+  	<servlet-name>mvc</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatherServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>mvc</servlet-name>
+  	<url-pattern>*.sp</url-pattern>
+  </servlet-mapping>
